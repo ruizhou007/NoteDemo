@@ -16,6 +16,31 @@
 		5DD84E871D36909100B0361A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5DD84E851D36909100B0361A /* LaunchScreen.storyboard */; };
 		5DD84E921D36909200B0361A /* NoteDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD84E911D36909200B0361A /* NoteDemoTests.m */; };
 		5DD84E9D1D36909200B0361A /* NoteDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD84E9C1D36909200B0361A /* NoteDemoUITests.m */; };
+		5DD84EAC1D37CA2400B0361A /* Note.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD84EAB1D37CA2400B0361A /* Note.m */; };
+		5DD84EF81D37CD3F00B0361A /* NoteAPIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD84EF71D37CD3F00B0361A /* NoteAPIClient.m */; };
+		5DD84F2C1D37D1FE00B0361A /* adn_0.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5DD84F131D37D1FE00B0361A /* adn_0.cer */; };
+		5DD84F2D1D37D1FE00B0361A /* adn_1.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5DD84F141D37D1FE00B0361A /* adn_1.cer */; };
+		5DD84F2E1D37D1FE00B0361A /* adn_2.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5DD84F151D37D1FE00B0361A /* adn_2.cer */; };
+		5DD84F2F1D37D1FE00B0361A /* ADNNetServerTrustChain in Resources */ = {isa = PBXBuildFile; fileRef = 5DD84F161D37D1FE00B0361A /* ADNNetServerTrustChain */; };
+		5DD84F301D37D1FE00B0361A /* HTTPBinOrgServerTrustChain in Resources */ = {isa = PBXBuildFile; fileRef = 5DD84F181D37D1FE00B0361A /* HTTPBinOrgServerTrustChain */; };
+		5DD84F311D37D1FE00B0361A /* AddTrust_External_CA_Root.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5DD84F191D37D1FE00B0361A /* AddTrust_External_CA_Root.cer */; };
+		5DD84F321D37D1FE00B0361A /* COMODO_RSA_Certification_Authority.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5DD84F1A1D37D1FE00B0361A /* COMODO_RSA_Certification_Authority.cer */; };
+		5DD84F331D37D1FE00B0361A /* COMODO_RSA_Domain_Validation_Secure_Server_CA.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5DD84F1B1D37D1FE00B0361A /* COMODO_RSA_Domain_Validation_Secure_Server_CA.cer */; };
+		5DD84F341D37D1FE00B0361A /* httpbinorg_01192017.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5DD84F1C1D37D1FE00B0361A /* httpbinorg_01192017.cer */; };
+		5DD84F351D37D1FE00B0361A /* logo.png in Resources */ = {isa = PBXBuildFile; fileRef = 5DD84F1E1D37D1FE00B0361A /* logo.png */; };
+		5DD84F361D37D1FE00B0361A /* AltName.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5DD84F1F1D37D1FE00B0361A /* AltName.cer */; };
+		5DD84F371D37D1FE00B0361A /* foobar.com.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5DD84F201D37D1FE00B0361A /* foobar.com.cer */; };
+		5DD84F381D37D1FE00B0361A /* NoDomains.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5DD84F211D37D1FE00B0361A /* NoDomains.cer */; };
+		5DD84F391D37D1FE00B0361A /* GoogleComServerTrustChainPath1 in Resources */ = {isa = PBXBuildFile; fileRef = 5DD84F231D37D1FE00B0361A /* GoogleComServerTrustChainPath1 */; };
+		5DD84F3A1D37D1FE00B0361A /* GoogleComServerTrustChainPath2 in Resources */ = {isa = PBXBuildFile; fileRef = 5DD84F241D37D1FE00B0361A /* GoogleComServerTrustChainPath2 */; };
+		5DD84F3B1D37D1FE00B0361A /* Equifax_Secure_Certificate_Authority_Root.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5DD84F251D37D1FE00B0361A /* Equifax_Secure_Certificate_Authority_Root.cer */; };
+		5DD84F3C1D37D1FE00B0361A /* GeoTrust_Global_CA_Root.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5DD84F261D37D1FE00B0361A /* GeoTrust_Global_CA_Root.cer */; };
+		5DD84F3D1D37D1FE00B0361A /* GeoTrust_Global_CA-cross.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5DD84F271D37D1FE00B0361A /* GeoTrust_Global_CA-cross.cer */; };
+		5DD84F3E1D37D1FE00B0361A /* GoogleInternetAuthorityG2.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5DD84F281D37D1FE00B0361A /* GoogleInternetAuthorityG2.cer */; };
+		5DD84F3F1D37D1FE00B0361A /* google.com.cer in Resources */ = {isa = PBXBuildFile; fileRef = 5DD84F291D37D1FE00B0361A /* google.com.cer */; };
+		5DD84F401D37D2A400B0361A /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DD84F111D37CDDC00B0361A /* AFNetworking.framework */; };
+		5DD84F411D37D2A400B0361A /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 5DD84F111D37CDDC00B0361A /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		5DD84F451D37D34D00B0361A /* NoteTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 5DD84F441D37D34D00B0361A /* NoteTableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +59,20 @@
 			remoteInfo = NoteDemo;
 		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5DD84F421D37D2A400B0361A /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				5DD84F411D37D2A400B0361A /* AFNetworking.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		5DD84E711D36909100B0361A /* NoteDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NoteDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -54,6 +93,33 @@
 		5DD84E981D36909200B0361A /* NoteDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NoteDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5DD84E9C1D36909200B0361A /* NoteDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NoteDemoUITests.m; sourceTree = "<group>"; };
 		5DD84E9E1D36909200B0361A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5DD84EAA1D37CA2400B0361A /* Note.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Note.h; sourceTree = "<group>"; };
+		5DD84EAB1D37CA2400B0361A /* Note.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Note.m; sourceTree = "<group>"; };
+		5DD84EF61D37CD3F00B0361A /* NoteAPIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoteAPIClient.h; sourceTree = "<group>"; };
+		5DD84EF71D37CD3F00B0361A /* NoteAPIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NoteAPIClient.m; sourceTree = "<group>"; };
+		5DD84F111D37CDDC00B0361A /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = "<group>"; };
+		5DD84F131D37D1FE00B0361A /* adn_0.cer */ = {isa = PBXFileReference; lastKnownFileType = file; name = adn_0.cer; path = ADNNetServerTrustChain/adn_0.cer; sourceTree = "<group>"; };
+		5DD84F141D37D1FE00B0361A /* adn_1.cer */ = {isa = PBXFileReference; lastKnownFileType = file; name = adn_1.cer; path = ADNNetServerTrustChain/adn_1.cer; sourceTree = "<group>"; };
+		5DD84F151D37D1FE00B0361A /* adn_2.cer */ = {isa = PBXFileReference; lastKnownFileType = file; name = adn_2.cer; path = ADNNetServerTrustChain/adn_2.cer; sourceTree = "<group>"; };
+		5DD84F161D37D1FE00B0361A /* ADNNetServerTrustChain */ = {isa = PBXFileReference; lastKnownFileType = folder; path = ADNNetServerTrustChain; sourceTree = "<group>"; };
+		5DD84F181D37D1FE00B0361A /* HTTPBinOrgServerTrustChain */ = {isa = PBXFileReference; lastKnownFileType = folder; path = HTTPBinOrgServerTrustChain; sourceTree = "<group>"; };
+		5DD84F191D37D1FE00B0361A /* AddTrust_External_CA_Root.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = AddTrust_External_CA_Root.cer; sourceTree = "<group>"; };
+		5DD84F1A1D37D1FE00B0361A /* COMODO_RSA_Certification_Authority.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = COMODO_RSA_Certification_Authority.cer; sourceTree = "<group>"; };
+		5DD84F1B1D37D1FE00B0361A /* COMODO_RSA_Domain_Validation_Secure_Server_CA.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = COMODO_RSA_Domain_Validation_Secure_Server_CA.cer; sourceTree = "<group>"; };
+		5DD84F1C1D37D1FE00B0361A /* httpbinorg_01192017.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = httpbinorg_01192017.cer; sourceTree = "<group>"; };
+		5DD84F1E1D37D1FE00B0361A /* logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo.png; sourceTree = "<group>"; };
+		5DD84F1F1D37D1FE00B0361A /* AltName.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = AltName.cer; sourceTree = "<group>"; };
+		5DD84F201D37D1FE00B0361A /* foobar.com.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = foobar.com.cer; sourceTree = "<group>"; };
+		5DD84F211D37D1FE00B0361A /* NoDomains.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = NoDomains.cer; sourceTree = "<group>"; };
+		5DD84F231D37D1FE00B0361A /* GoogleComServerTrustChainPath1 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GoogleComServerTrustChainPath1; sourceTree = "<group>"; };
+		5DD84F241D37D1FE00B0361A /* GoogleComServerTrustChainPath2 */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GoogleComServerTrustChainPath2; sourceTree = "<group>"; };
+		5DD84F251D37D1FE00B0361A /* Equifax_Secure_Certificate_Authority_Root.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = Equifax_Secure_Certificate_Authority_Root.cer; sourceTree = "<group>"; };
+		5DD84F261D37D1FE00B0361A /* GeoTrust_Global_CA_Root.cer */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file; path = GeoTrust_Global_CA_Root.cer; sourceTree = "<group>"; };
+		5DD84F271D37D1FE00B0361A /* GeoTrust_Global_CA-cross.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GeoTrust_Global_CA-cross.cer"; sourceTree = "<group>"; };
+		5DD84F281D37D1FE00B0361A /* GoogleInternetAuthorityG2.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = GoogleInternetAuthorityG2.cer; sourceTree = "<group>"; };
+		5DD84F291D37D1FE00B0361A /* google.com.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = google.com.cer; sourceTree = "<group>"; };
+		5DD84F431D37D34D00B0361A /* NoteTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NoteTableViewCell.h; path = ../NoteTableViewCell.h; sourceTree = "<group>"; };
+		5DD84F441D37D34D00B0361A /* NoteTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NoteTableViewCell.m; path = ../NoteTableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +127,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DD84F401D37D2A400B0361A /* AFNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -84,6 +151,7 @@
 		5DD84E681D36909100B0361A = {
 			isa = PBXGroup;
 			children = (
+				5DD84F111D37CDDC00B0361A /* AFNetworking.framework */,
 				5DD84E731D36909100B0361A /* NoteDemo */,
 				5DD84E901D36909200B0361A /* NoteDemoTests */,
 				5DD84E9B1D36909200B0361A /* NoteDemoUITests */,
@@ -104,13 +172,20 @@
 		5DD84E731D36909100B0361A /* NoteDemo */ = {
 			isa = PBXGroup;
 			children = (
+				5DD84F431D37D34D00B0361A /* NoteTableViewCell.h */,
+				5DD84F441D37D34D00B0361A /* NoteTableViewCell.m */,
 				5DD84E771D36909100B0361A /* AppDelegate.h */,
 				5DD84E781D36909100B0361A /* AppDelegate.m */,
 				5DD84E7A1D36909100B0361A /* MasterViewController.h */,
 				5DD84E7B1D36909100B0361A /* MasterViewController.m */,
+				5DD84F2B1D37D1FE00B0361A /* Resources */,
 				5DD84E7D1D36909100B0361A /* DetailViewController.h */,
 				5DD84E7E1D36909100B0361A /* DetailViewController.m */,
 				5DD84E801D36909100B0361A /* Main.storyboard */,
+				5DD84EAA1D37CA2400B0361A /* Note.h */,
+				5DD84EAB1D37CA2400B0361A /* Note.m */,
+				5DD84EF61D37CD3F00B0361A /* NoteAPIClient.h */,
+				5DD84EF71D37CD3F00B0361A /* NoteAPIClient.m */,
 				5DD84E831D36909100B0361A /* Assets.xcassets */,
 				5DD84E851D36909100B0361A /* LaunchScreen.storyboard */,
 				5DD84E881D36909100B0361A /* Info.plist */,
@@ -145,6 +220,66 @@
 			path = NoteDemoUITests;
 			sourceTree = "<group>";
 		};
+		5DD84F171D37D1FE00B0361A /* ADN.net */ = {
+			isa = PBXGroup;
+			children = (
+				5DD84F131D37D1FE00B0361A /* adn_0.cer */,
+				5DD84F141D37D1FE00B0361A /* adn_1.cer */,
+				5DD84F151D37D1FE00B0361A /* adn_2.cer */,
+				5DD84F161D37D1FE00B0361A /* ADNNetServerTrustChain */,
+			);
+			path = ADN.net;
+			sourceTree = "<group>";
+		};
+		5DD84F1D1D37D1FE00B0361A /* HTTPBin.org */ = {
+			isa = PBXGroup;
+			children = (
+				5DD84F181D37D1FE00B0361A /* HTTPBinOrgServerTrustChain */,
+				5DD84F191D37D1FE00B0361A /* AddTrust_External_CA_Root.cer */,
+				5DD84F1A1D37D1FE00B0361A /* COMODO_RSA_Certification_Authority.cer */,
+				5DD84F1B1D37D1FE00B0361A /* COMODO_RSA_Domain_Validation_Secure_Server_CA.cer */,
+				5DD84F1C1D37D1FE00B0361A /* httpbinorg_01192017.cer */,
+			);
+			path = HTTPBin.org;
+			sourceTree = "<group>";
+		};
+		5DD84F221D37D1FE00B0361A /* SelfSigned */ = {
+			isa = PBXGroup;
+			children = (
+				5DD84F1F1D37D1FE00B0361A /* AltName.cer */,
+				5DD84F201D37D1FE00B0361A /* foobar.com.cer */,
+				5DD84F211D37D1FE00B0361A /* NoDomains.cer */,
+			);
+			path = SelfSigned;
+			sourceTree = "<group>";
+		};
+		5DD84F2A1D37D1FE00B0361A /* Google.com */ = {
+			isa = PBXGroup;
+			children = (
+				5DD84F231D37D1FE00B0361A /* GoogleComServerTrustChainPath1 */,
+				5DD84F241D37D1FE00B0361A /* GoogleComServerTrustChainPath2 */,
+				5DD84F251D37D1FE00B0361A /* Equifax_Secure_Certificate_Authority_Root.cer */,
+				5DD84F261D37D1FE00B0361A /* GeoTrust_Global_CA_Root.cer */,
+				5DD84F271D37D1FE00B0361A /* GeoTrust_Global_CA-cross.cer */,
+				5DD84F281D37D1FE00B0361A /* GoogleInternetAuthorityG2.cer */,
+				5DD84F291D37D1FE00B0361A /* google.com.cer */,
+			);
+			path = Google.com;
+			sourceTree = "<group>";
+		};
+		5DD84F2B1D37D1FE00B0361A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5DD84F171D37D1FE00B0361A /* ADN.net */,
+				5DD84F1D1D37D1FE00B0361A /* HTTPBin.org */,
+				5DD84F1E1D37D1FE00B0361A /* logo.png */,
+				5DD84F221D37D1FE00B0361A /* SelfSigned */,
+				5DD84F2A1D37D1FE00B0361A /* Google.com */,
+			);
+			name = Resources;
+			path = "../../../Downloads/AFNetworking-master/Tests/Resources";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,6 +290,7 @@
 				5DD84E6D1D36909100B0361A /* Sources */,
 				5DD84E6E1D36909100B0361A /* Frameworks */,
 				5DD84E6F1D36909100B0361A /* Resources */,
+				5DD84F421D37D2A400B0361A /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -212,7 +348,6 @@
 				TargetAttributes = {
 					5DD84E701D36909100B0361A = {
 						CreatedOnToolsVersion = 8.0;
-						DevelopmentTeam = AHMPPES4AX;
 						DevelopmentTeamName = "Xia Shi";
 						ProvisioningStyle = Automatic;
 					};
@@ -257,9 +392,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DD84F351D37D1FE00B0361A /* logo.png in Resources */,
+				5DD84F3F1D37D1FE00B0361A /* google.com.cer in Resources */,
 				5DD84E871D36909100B0361A /* LaunchScreen.storyboard in Resources */,
 				5DD84E841D36909100B0361A /* Assets.xcassets in Resources */,
+				5DD84F391D37D1FE00B0361A /* GoogleComServerTrustChainPath1 in Resources */,
+				5DD84F361D37D1FE00B0361A /* AltName.cer in Resources */,
+				5DD84F2D1D37D1FE00B0361A /* adn_1.cer in Resources */,
+				5DD84F321D37D1FE00B0361A /* COMODO_RSA_Certification_Authority.cer in Resources */,
 				5DD84E821D36909100B0361A /* Main.storyboard in Resources */,
+				5DD84F331D37D1FE00B0361A /* COMODO_RSA_Domain_Validation_Secure_Server_CA.cer in Resources */,
+				5DD84F311D37D1FE00B0361A /* AddTrust_External_CA_Root.cer in Resources */,
+				5DD84F3C1D37D1FE00B0361A /* GeoTrust_Global_CA_Root.cer in Resources */,
+				5DD84F371D37D1FE00B0361A /* foobar.com.cer in Resources */,
+				5DD84F2C1D37D1FE00B0361A /* adn_0.cer in Resources */,
+				5DD84F341D37D1FE00B0361A /* httpbinorg_01192017.cer in Resources */,
+				5DD84F2F1D37D1FE00B0361A /* ADNNetServerTrustChain in Resources */,
+				5DD84F3E1D37D1FE00B0361A /* GoogleInternetAuthorityG2.cer in Resources */,
+				5DD84F3D1D37D1FE00B0361A /* GeoTrust_Global_CA-cross.cer in Resources */,
+				5DD84F381D37D1FE00B0361A /* NoDomains.cer in Resources */,
+				5DD84F3A1D37D1FE00B0361A /* GoogleComServerTrustChainPath2 in Resources */,
+				5DD84F3B1D37D1FE00B0361A /* Equifax_Secure_Certificate_Authority_Root.cer in Resources */,
+				5DD84F2E1D37D1FE00B0361A /* adn_2.cer in Resources */,
+				5DD84F301D37D1FE00B0361A /* HTTPBinOrgServerTrustChain in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -284,8 +439,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5DD84EAC1D37CA2400B0361A /* Note.m in Sources */,
 				5DD84E791D36909100B0361A /* AppDelegate.m in Sources */,
+				5DD84F451D37D34D00B0361A /* NoteTableViewCell.m in Sources */,
 				5DD84E7C1D36909100B0361A /* MasterViewController.m in Sources */,
+				5DD84EF81D37CD3F00B0361A /* NoteAPIClient.m in Sources */,
 				5DD84E761D36909100B0361A /* main.m in Sources */,
 				5DD84E7F1D36909100B0361A /* DetailViewController.m in Sources */,
 			);
@@ -380,7 +538,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -419,7 +577,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -430,9 +588,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = NoteDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ZR-XS.Rui-Zhou.NoteDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demoApps.NoteDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -441,9 +605,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = NoteDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.ZR-XS.Rui-Zhou.NoteDemo";
+				PRODUCT_BUNDLE_IDENTIFIER = com.demoApps.NoteDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -453,6 +623,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = NoteDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ZR-XS.Rui-Zhou.NoteDemoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -465,6 +636,7 @@
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = NoteDemoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ZR-XS.Rui-Zhou.NoteDemoTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -476,6 +648,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = NoteDemoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ZR-XS.Rui-Zhou.NoteDemoUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -487,6 +660,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = NoteDemoUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.ZR-XS.Rui-Zhou.NoteDemoUITests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -513,6 +687,7 @@
 				5DD84EA31D36909200B0361A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DD84EA41D36909200B0361A /* Build configuration list for PBXNativeTarget "NoteDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +696,7 @@
 				5DD84EA61D36909200B0361A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5DD84EA71D36909200B0361A /* Build configuration list for PBXNativeTarget "NoteDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +705,7 @@
 				5DD84EA91D36909200B0361A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

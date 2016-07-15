@@ -7,11 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+@class Note;
 
 @interface DetailViewController : UIViewController
+@property (strong, nonatomic) IBOutlet UILabel *noteIDLabel;
+@property (strong, nonatomic) Note *note;
+@property BOOL isAdding;
 
-@property (strong, nonatomic) NSDate *detailItem;
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 
 @end
 
